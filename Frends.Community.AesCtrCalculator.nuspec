@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Frends.Community.AesCtrCalculator</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>Frends.Community.AesCtrCalculator</title>
     <authors>HiQ Finland</authors>
     <owners>HiQ Finland</owners>
@@ -22,6 +22,7 @@
   </metadata>
   <files>
     <file src="Frends.Community.AesCtrCalculator\bin\Release\Frends.Community.AesCtrCalculator.dll" target="lib\net452\Frends.Community.AesCtrCalculator.dll" />
+    <file src="Frends.Community.AesCtrCalculator\bin\Release\Frends.Community.AesCtrCalculator.xml" target="lib\net452\Frends.Community.AesCtrCalculator.xml" />
     <file src="Frends.Community.AesCtrCalculator\FrendsTaskMetadata.json" target="FrendsTaskMetadata.json" />
   </files>
 </package>

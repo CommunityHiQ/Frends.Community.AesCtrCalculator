@@ -2,6 +2,8 @@
 using System.ComponentModel;
 using System.Text;
 
+#pragma warning disable 1591
+
 namespace Frends.Community.AesCtrCalculator
 {
     public class AesCtrCalculatorTasks

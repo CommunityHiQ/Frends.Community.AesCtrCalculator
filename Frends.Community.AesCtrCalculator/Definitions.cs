@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
+#pragma warning disable 1591
+
 namespace Frends.Community.AesCtrCalculator
 {
     #region Classes
