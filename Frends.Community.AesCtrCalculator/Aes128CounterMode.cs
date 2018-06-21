@@ -24,6 +24,7 @@ using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 
+#pragma warning disable 1591
 public class Aes128CounterMode : SymmetricAlgorithm
 {
     private readonly byte[] _counter;
