@@ -1,7 +1,7 @@
 ﻿{
-  "Tasks": [
-    {
-      "TaskMethod": "Frends.Community.AesCtrCalculator.AesCtrCalculatorTasks.CalculateAesCtr"
-    }
-  ]
+	"Tasks": [
+		{
+			"TaskMethod": "Frends.Community.AesCtrCalculator.AesCtrCalculatorTasks.CalculateAesCtr"
+		}
+	]
 }
