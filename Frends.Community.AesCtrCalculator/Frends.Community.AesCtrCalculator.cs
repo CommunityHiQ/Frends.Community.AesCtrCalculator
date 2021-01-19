@@ -11,7 +11,7 @@ namespace Frends.Community.AesCtrCalculator
     public class AesCtrCalculatorTasks
     {
         /// <summary>
-        /// Calculate AES CTR 128 with given inputs. Inputs are hex strings.
+        /// Calculate AES CTR 128 with given inputs. Inputs are hex strings. Documentation: https://github.com/CommunityHiQ/Frends.Community.AesCtrCalculator
         /// </summary>
         /// <param name="input"></param>
         /// <returns>object {string Data } </returns>
