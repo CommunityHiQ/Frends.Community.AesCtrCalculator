@@ -1,6 +1,8 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Text;
+using System.Threading;
+using Microsoft.CSharp; // You can remove this if you don't need dynamic type in .NET Standard frends Tasks
 
 #pragma warning disable 1591
 
@@ -9,7 +11,7 @@ namespace Frends.Community.AesCtrCalculator
     public class AesCtrCalculatorTasks
     {
         /// <summary>
-        /// Calculate AES CTR 128 with given inputs. Inputs are hex strings.
+        /// Calculate AES CTR 128 with given inputs. Inputs are hex strings. Documentation: https://github.com/CommunityHiQ/Frends.Community.AesCtrCalculator
         /// </summary>
         /// <param name="input"></param>
         /// <returns>object {string Data } </returns>
@@ -39,16 +41,16 @@ namespace Frends.Community.AesCtrCalculator
             {
                 ict.TransformBlock(inputBytes, 0, inputBytes.Length, result, 0);
             }
-            
-            return new Output{Data = GetHexString(result) };
+
+            return new Output { Data = GetHexString(result) };
         }
 
         private static byte[] GetByteArray(string test)
         {
-            var plainText2 = new byte[test.Length/2];
+            var plainText2 = new byte[test.Length / 2];
             for (var i = 0; i < test.Length; i = i + 2)
             {
-                plainText2[i/2] = (byte) Convert.ToInt32(test[i] + "" + test[i+1], 16);
+                plainText2[i / 2] = (byte)Convert.ToInt32(test[i] + "" + test[i + 1], 16);
             }
 
             return plainText2;
