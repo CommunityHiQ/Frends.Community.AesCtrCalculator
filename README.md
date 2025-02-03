@@ -75,3 +75,4 @@ NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 | 1.0.0 | Initial version of AesCtrCalculator Task |
 | 1.1.0 | Fixed missing descriptions in Task |
 | 1.2.0 | Converted to support .Net Framework 4.7.1 and .Net Standard 2.0 |
+| 2.0.0 | Targeted to .NET6 and .NET8, and updated System.ComponentModel.Annotations to 5.0.0 |
